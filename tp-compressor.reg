@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Command Prompt]
+@="√¸¡ÓÃ· æ∑˚(&Q)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Command Prompt\command]
+@="cmd.exe /k pushd %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Open with tp-compressor]
+@="tp-compressor"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Open with tp-compressor\command]
+@="cmd.exe /k ruby C:\\Users\\Public\\Documents\\yui-one.rb %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Open with tp-compressor]
+@="tp-compressor"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Open with tp-compressor\command]
+@="cmd.exe /k ruby C:\\Users\\Public\\Documents\\yui-one.rb %1"
